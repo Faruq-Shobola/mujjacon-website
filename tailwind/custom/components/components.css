@@ -38,21 +38,37 @@ $post-title-selector {
  *
  * https://tailwindcss.com/docs/typography-plugin
  */
-$post-content-selector {
+/* $post-content-selector {
 	@apply prose prose-neutral max-w-none prose-a:text-primary;
-}
+} */
 
 /* Content width from the `theme.json` file */
-.entry-content > * {
+/* .entry-content > * {
 	@apply mx-auto max-w-content;
-}
+} */
 
 /* Wide width from the `theme.json` file */
-.entry-content > .alignwide {
+/* .entry-content > .alignwide {
 	@apply max-w-wide;
-}
+} */
 
 /* Full width */
-.entry-content > .alignfull {
+/* .entry-content > .alignfull {
 	@apply max-w-none;
+} */
+
+
+
+
+.cont {
+    @apply max-w-6xl mx-auto px-4;
 }
+/* .breadcrumb {
+    @apply text-4xl font-bold capitalize text-primary;
+} */
+/* .btn-primary {
+    @apply bg-primary text-white rounded-md font-medium py-3 px-7 text-base capitalize;
+} */
+/* .btn-primary-sm {
+    @apply text-white bg-primary rounded-md font-medium py-3 px-10 text-sm mt-5;
+} */
