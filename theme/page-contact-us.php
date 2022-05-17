@@ -110,3 +110,4 @@
         CONTACT INFO SECTION END
     --------------------------------->
 </section>
+<?php get_footer() ?>
