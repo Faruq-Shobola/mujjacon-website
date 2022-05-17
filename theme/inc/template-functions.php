@@ -16,6 +16,74 @@ function mujjacon_pingback_header() {
 add_action( 'wp_head', 'mujjacon_pingback_header' );
 
 
+//Facilities custom post
+
+function testimony_post_type() {
+	$args = array(
+		'labels'      => array(
+		  'name'          => 'Testimony',
+		  'singular_name' => 'Testimony',
+		),
+		'public'      => true,
+		'hierarchical' => true,
+		'has_archive' => true,
+		'rewrite'     => array( 'slug' => 'testimony' ),
+		'supports' =>  array('title', 'editor', 'tag', 'thumbnail', 'custom-fields'),
+		
+	  );
+	  register_post_type('testimony', $args );
+	}
+	add_action('init', 'testimony_post_type');
+
+
+//Facilities custom post
+
+ function facilities_post_type() {
+	$args = array(
+		'labels'      => array(
+		  'name'          => 'Facilities',
+		  'singular_name' => 'Facility',
+		),
+		'public'      => true,
+		'hierarchical' => true,
+		'has_archive' => true,
+		'rewrite'     => array( 'slug' => 'facilities' ),
+		'supports' =>  array('title', 'editor', 'tag', 'thumbnail', 'custom-fields'),
+		
+	  );
+	  register_post_type('facilities', $args );
+	}
+	add_action('init', 'facilities_post_type');
+  
+  //Facilities taxonomies
+  function facilities_taxonomy() {
+	$labels = array(
+		'name'              => 'Facilities Category', 
+		'singular_name'     => 'category',
+		'search_items'      => __( 'Search facilities' ),
+		'all_items'         => __( 'All Facilities' ),
+		'parent_item'       => __( 'Parent Facility' ),
+		'parent_item_colon' => __( 'Parent Faacility:' ),
+		'edit_item'         => __( 'Edit facility' ),
+		'update_item'       => __( 'Update facility' ),
+		'add_new_item'      => __( 'Add New category' ),
+		'new_item_name'     => __( 'New facility Name' ),
+		'menu_name'         => __( 'Categories' ),
+	);
+	$args   = array(
+		'hierarchical'      => true, // make it hierarchical (like categories)
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => [ 'slug' => 'facilities' ],
+	);
+	register_taxonomy( 'facilities', [ 'facilities' ], $args );
+  }
+  add_action( 'init', 'facilities_taxonomy' );
+
+
+
 //Register Sidebars 
 function my_sidebars() {
 
