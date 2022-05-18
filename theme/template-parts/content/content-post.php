@@ -9,7 +9,7 @@
                     <?php endif;?>
                 
                     <div class="relative px-5 py-7 flex flex-col">
-                        <h5 class="text-base font-medium text-gray-500">January 05, 2022</h5>
+                        <h5 class="text-base font-medium text-gray-500"><?php echo get_the_date('l jS F, Y');?></h5>
                         <h3 class="mt-4 text-2xl capitalize font-medium">
                             <?php the_title();?>
                         </h3>
@@ -18,7 +18,7 @@
                            <?php the_excerpt() ?>
                         </p>
                         <p class="mt-6 flex items-center">
-                            <a href="<?php the_permalink() ?>" class="text-wine text-sm font-semibold cursor-pointer">Continue reading</a>
+                            <a href="<?php the_permalink() ?>" class="text-wine text-sm font-semibold cursor-pointer text-light-green hover:text-dark-green">Continue reading</a>
                         </p>
                     </div>
                 </div>

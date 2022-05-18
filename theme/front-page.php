@@ -6,10 +6,15 @@
     <!------------ PAGE TITLE ------------>
     <div class="md:max-w-3xl mx-auto px-4">
         <div class="flex flex-col gap-8 text-center text-white">
-            <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">Growing everyday business with innovative digital solutions</h2>
+            <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">The Foremost Muslim Real Estate Company In Nigeria Providing Homes that fulfill Your Dreams</h2>
             <!------------ BUTTON ------------>
-            <a href="/get-quote" class="bg-red-500 w-40 py-3 mx-auto text-center text-white font-semibold capitalize font-body">Get ed</a>
+            <div class="flex flex-wrap justify-center">
+                <a href="<?php get_site_url() ?>/all-programmes" class="block w-full px-12 py-3 text-base font-medium text-white bg-dark-green border border-dark-green hover:border-white rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring  transition duration-300 hover:ease-in">
+                    Get Started
+                </a>
+            </div>
         </div>
+        
     </div>
 </section>
 <!-------------------------------- 
@@ -50,16 +55,16 @@
    
 </section>
 <!-------------------------------- 
-/// 03  PHASE 2 SECTION
+/// 03  PHASE 1 SECTION
 ---------------------------------->
 <section class="service-two pb-16">
     <div class="cont mx-auto flex flex-col-reverse md:grid grid-cols-2 px-4">
         <!------------ COLUMN 1 ------------>
-        <div class="flex flex-col justify-center gap-3 py-16 px-4 lg:px-8 bg-stone-100">
+        <div class="flex flex-col justify-center gap-3 py-16 px-4 lg:px-8 bg-gray">
             <!-- <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-white rounded-full font-body">
                 <i class="fas fa-edit"></i>
             </p> -->
-            <h4 class="capitalize font-semibold text-4xl font-head mb-6 text-black">Phase II Estate</h4>
+            <h4 class="capitalize font-semibold text-4xl font-head mb-6 text-black">Phase I Estate</h4>
             <!------ Paragraph ------>
             <p class="lg:w-5/6 text-base font-body text-black">Own a Home now at our ongoing Peace Garden Muslim Estate Phase II</p>
             <!-- Location -->
@@ -99,8 +104,8 @@
         <!-- facilities section -->
             <?php $query_args = array(
                 'post_type' => 'facilities',
-        //         'posts_per_page' => 5,
-                'order' => 'ASC',
+                'posts_per_page' => 3,
+                'order' => 'DSC',
             );
 
             $query = new WP_Query( $query_args ); ?>
@@ -120,7 +125,7 @@
     </div>
 </section>
 <!-------------------------------- 
-/// 05  PHASE 1 SECTION
+/// 05  PHASE 2 SECTION
 ---------------------------------->
 <section class="service-two py-16">
     <div class="cont mx-auto flex flex-col md:grid md:grid-cols-5 px-4">
@@ -129,11 +134,11 @@
             <img class="object-cover" src="/wp-content/themes/mujjacon-website/theme/asset/image/estate-2.jpg" alt="digital-branding">
         </div>
         <!------------ COLUMN 2 ------------>
-        <div class="flex flex-col justify-center gap-3 col-span-2 py-16 px-4 lg:px-10 bg-stone-100">
+        <div class="flex flex-col justify-center gap-3 col-span-2 py-16 px-4 lg:px-10 bg-gray">
             <!-- <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-white rounded-full font-body">
                 <i class="fas fa-edit"></i>
             </p> -->
-            <h4 class="capitalize font-semibold text-4xl font-head mb-6 text-black">Phase I Estate</h4>
+            <h4 class="capitalize font-semibold text-4xl font-head mb-6 text-black">Phase II Estate</h4>
             <!------ Paragraph ------>
             <p class="lg:w-5/6 text-base font-body text-black">Own a Home now at our ongoing Peace Garden Muslim Estate Phase II</p>
             <!-- Location -->

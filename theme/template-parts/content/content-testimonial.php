@@ -13,7 +13,7 @@
         <h2 class="text-3xl md:text-4xl font-bold capitalize">what our happy client says</h2>
     </div>
 	<?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-		<section class="bg-stone-200 owl-carousel owl-theme rounded-lg mx-1 overflow-hidden">
+		<section class="bg-gray owl-carousel owl-theme rounded-lg mx-1 overflow-hidden">
 			<div class="grid grid-cols-1 sm:grid-cols-3 sm:items-center">
 					<div class="h-full">
 						<?php if(has_post_thumbnail()):?>
@@ -25,8 +25,8 @@
                     <div class="client-title flex items-center gap-4">
                        
                         <div class="title">
-                            <h5 class="name capitalize text-base font-bold"><?php the_title();?></h5>
-                            <p class="address capitalize text-gray-500 text-sm">abuja, nigeria</p>
+                            <h5 class="capitalize text-base font-bold text-light-green"><?php the_title();?></h5>
+                            <p class="capitalize text-dark-green text-sm">abuja, nigeria</p>
                         </div>
                     </div>
 					<p class="text-lg font-medium"><?php the_content(); ?></p>

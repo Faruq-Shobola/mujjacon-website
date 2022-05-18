@@ -53,7 +53,7 @@
         </div>
         <!-------------- BUTTON -------------->
        <div class="list">
-            <ul role="list" class="marker:text-green-800 pl-5 space-y-3 text-base font-medium list-outside list-disc">
+            <ul role="list" class="marker:text-light-green pl-5 space-y-3 text-base font-medium list-outside list-disc">
                 <li class="text-gray-900">
                     Windows Based OS
                 </li>
@@ -71,10 +71,7 @@
                 </li>
             </ul>
         </div>
-        <!-------------- BUTTON -------------->
-        <div class="btn">
-            <button class="inline-flex border- border-green-800 hover:border-green-800 items-center px-6 py-3 bg-green-800 hover:bg-green-800 text-white font-medium rounded">more facilities</button>
-        </div>
+       
     </div>
 </section>
 <!-------------------------------
@@ -125,7 +122,7 @@
         </div>
         <!-------------- BUTTON -------------->
        <div class="list">
-            <ul role="list" class="marker:text-green-800 pl-5 space-y-3 text-base font-medium list-outside list-disc">
+            <ul role="list" class="marker:text-light-green pl-5 space-y-3 text-base font-medium list-outside list-disc">
                 <li class="text-gray-900">
                     Windows Based OS
                 </li>
@@ -143,27 +140,14 @@
                 </li>
             </ul>
         </div>
-        <!-------------- BUTTON -------------->
-        <div class="btn">
-            <button class="inline-flex border- border-green-800 hover:border-green-800 items-center px-6 py-3 bg-green-800 hover:bg-green-800 text-white font-medium rounded">more facilities</button>
-        </div>
+       
     </div>
 </section>
 <!-------------------------------
 ///  05 CTA SECTION 
 ------------------------------->
-<section class="text-white bg-center bg-no-repeat bg-cover">
-    <div class="cont bg-green-800 px-4 py-16 mx-auto lg:items-center lg:flex rounded-md">
-        <div class="max-w-3xl mx-auto text-center">
-        <h3 class="text-3xl font-extrabold sm:text-4xl capitalize leading-6">Purchase Your Choice of Land Now</h3>
-
-        <div class="flex flex-wrap justify-center gap-4 mt-12">
-            <a href="<?php get_site_url() ?>/all-programmes" class="block w-full px-12 py-3 text-base font-medium text-white bg-primary border border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">
-            Get Started
-            </a>
-        </div>
-        </div>
-    </div>
+<section class="text-white bg-center bg-no-repeat bg-cover my-16">
+    <?php get_template_part('template-parts/content/content','cta');?>
 </section>
 
 <?php get_footer() ?>
