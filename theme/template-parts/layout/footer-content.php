@@ -10,7 +10,7 @@
 ?>
 
 <!-------------- FOOTER -------------->
-<section class="footer py-16 px-4 bg-gray-100 bottom-0">
+<section class="footer py-16 px-4 bg-gray bottom-0">
     <footer class="relative max-w-6xl mx-auto flex flex-col justify-center gap-20">
         <!-------------- FOOTER WIDGETS -------------->
         <div class="grid md:grid-cols-7 gap-8 md:gap-3">

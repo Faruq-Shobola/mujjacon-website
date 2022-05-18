@@ -8,7 +8,7 @@
         <div class="flex flex-col gap-8 text-center text-white">
             <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">Growing everyday business with innovative digital solutions</h2>
             <!------------ BUTTON ------------>
-            <a href="/get-quote" class="bg-red-500 w-40 py-3 mx-auto text-center text-white font-semibold capitalize font-body">Get ed</a>
+            <a href="/get-quote" class="bg-dark-green w-40 py-3 mx-auto text-center text-white font-semibold capitalize font-body">Get Started</a>
         </div>
     </div>
 </section>
@@ -80,7 +80,7 @@
         </div>
         <!------------- COLUMN 2 ------------>
         <div class="flex justify-center">
-            <img class="object-cover" src="/wp-content/themes/mujjacon-website/theme/asset/image/estate-3.jpg" alt="digital-branding">
+            <img class="object-cover" src="/wp-content/themes/mujjacon/theme/asset/image/estate-3.jpg" alt="digital-branding">
         </div>
     </div>
 </section>
@@ -99,8 +99,8 @@
         <!-- facilities section -->
             <?php $query_args = array(
                 'post_type' => 'facilities',
-        //         'posts_per_page' => 5,
-                'order' => 'ASC',
+                'posts_per_page' => 1,
+                'order' => 'DSC',
             );
 
             $query = new WP_Query( $query_args ); ?>
@@ -111,6 +111,9 @@
                 <?php get_template_part('template-parts/content/content','facilities');?>  
                 
             <?php endwhile; else: endif; ?>
+            <div class="flex justify-center items-center">
+                <?php the_posts_pagination(); ?>
+            </div>
     <!-- </div> -->
         </div>
         <!-------------- BUTTON -------------->
@@ -126,7 +129,7 @@
     <div class="cont mx-auto flex flex-col md:grid md:grid-cols-5 px-4">
          <!------------- COLUMN 1 ------------>
          <div class="flex justify-center items-center col-span-3">
-            <img class="object-cover" src="/wp-content/themes/mujjacon-website/theme/asset/image/estate-2.jpg" alt="digital-branding">
+            <img class="object-cover" src="/wp-content/themes/mujjacon/theme/asset/image/estate-2.jpg" alt="digital-branding">
         </div>
         <!------------ COLUMN 2 ------------>
         <div class="flex flex-col justify-center gap-3 col-span-2 py-16 px-4 lg:px-10 bg-stone-100">
