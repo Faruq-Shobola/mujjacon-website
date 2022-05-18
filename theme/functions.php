@@ -166,8 +166,8 @@ function mujjacon_scripts() {
 	wp_enqueue_style( 'mujjacon-style', get_stylesheet_uri(), array(), MUJJACON_VERSION );
 	// stylesheet
 	wp_enqueue_style('style', get_template_directory_uri() . '/asset/css/main.css', array(), false, 'all');
-	wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/css/owl.carousel.min.css', array(), false, 'all');
-	wp_enqueue_style( 'owl-theme', get_template_directory_uri() . '/css/owl.theme.default.min.css', array(), false, 'all');
+	wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/asset/css/owl.carousel.min.css', array(), false, 'all');
+	wp_enqueue_style( 'owl-theme', get_template_directory_uri() . '/asset/css/owl.theme.default.min.css', array(), false, 'all');
 
 	wp_enqueue_script( 'mujjacon-script', get_template_directory_uri() . '/js/script.min.js', array(), MUJJACON_VERSION, true );
 	wp_enqueue_script( 'owl-carousel', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), false, 'all');

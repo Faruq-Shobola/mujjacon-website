@@ -11,11 +11,12 @@
     /*----------------------------------------------------*/
 	/*	clients owlCarousel
     /*----------------------------------------------------*/
-	let cSlide = $(".client-slide");
+	let cSlide = $(".facilities-slide");
 	cSlide.owlCarousel({
-		items: 6,
+		items: 1,
 		loop: true,
 		autoplay: true,
+		margin: 30,
 		dots: false,
 		navBy: 1,
 		autoplayTimeout: 2500,
@@ -26,19 +27,19 @@
 				items: 1,
 			},
 			500: {
-				items: 2,
+				items: 1,
 			},
 			767: {
-				items: 3,
+				items: 2,
 			},
 			768: {
-				items: 4,
+				items: 3,
 			},
 			991: {
-				items: 5,
+				items: 3,
 			},
 			1000: {
-				items: 6,
+				items: 3,
 			},
 		},
 	});
@@ -50,8 +51,9 @@
 		items: 1,
 		loop: true,
 		autoplay: true,
+		margin: 30,
 		dots: true,
-		nav: true,
+		nav: false,
 		navText: [
 			"<i class='fas fa-chevron-left'></i>",
 			"<i class='fas fa-chevron-right'></i>",

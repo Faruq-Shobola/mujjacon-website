@@ -99,25 +99,24 @@
             <h2 class="text-3xl md:text-4xl font-bold capitalize">our facilities</h2>
         </div>
         <!-------------- FACILITIES -------------->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-
-        <div class="max-w-5xl px-4 mx-auto owl-carousel owl-theme client-slide">
-        <!-- facilities section -->
+        
+        <div class="owl-carousel owl-theme facilities-slide">
+            <!-- facilities section -->
             <?php $query_args = array(
                 'post_type' => 'facilities',
                 // 'posts_per_page' => 3,
                 'order' => 'DSC',
             );
-
+            
             $query = new WP_Query( $query_args ); ?>
+
 
             <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
                 <?php get_template_part('template-parts/content/content','facilities');?>  
                 
             <?php endwhile; else: endif; ?>
-            
-        </div>
+
         </div>
         <!-------------- BUTTON -------------->
         <div class="btn">
