@@ -73,7 +73,7 @@
         </div>
         <!-------------- BUTTON -------------->
         <div class="btn">
-            <button class="inline-flex border- border-green-800 hover:border-green-800 items-center px-6 py-3 bg-green-800 hover:bg-green-800 text-white font-medium rounded-sm">more facilities</button>
+            <button class="inline-flex border- border-green-800 hover:border-green-800 items-center px-6 py-3 bg-green-800 hover:bg-green-800 text-white font-medium rounded">more facilities</button>
         </div>
     </div>
 </section>
@@ -145,7 +145,7 @@
         </div>
         <!-------------- BUTTON -------------->
         <div class="btn">
-            <button class="inline-flex border- border-green-800 hover:border-green-800 items-center px-6 py-3 bg-green-800 hover:bg-green-800 text-white font-medium rounded-sm">more facilities</button>
+            <button class="inline-flex border- border-green-800 hover:border-green-800 items-center px-6 py-3 bg-green-800 hover:bg-green-800 text-white font-medium rounded">more facilities</button>
         </div>
     </div>
 </section>

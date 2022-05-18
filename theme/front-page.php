@@ -15,34 +15,34 @@
 <!-------------------------------- 
 /// 02   HERO SECTION
 ---------------------------------->
-<section class="py-16">
+<section class="">
     <div class="cont px-4">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-10">
             <!------------ CARD 1 ------------>
-            <div class="p-8 bg-stone-100">
-                <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-pink-100 rounded-full mx-auto font-body">
-                    <i class="fas fa-desktop"></i>
+            <div class="p-8">
+                <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-light-green rounded-full mx-auto font-body">
+                    <i class="fas fa-desktop text-white"></i>
                 </p>
                 <p class="py-5 text-center font-body">
-                    When Social Media is down, your website should save your business. Investing in your website is the next best thing you can do for your brand with our experience!
+                    Biggest Company in Real Estate for Muslim Investors, Partners, and Clients
                 </p>
             </div>
             <!------------ CARD 2 ------------>
-            <div class="p-8 bg-stone-100">
-                <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-pink-100 rounded-full mx-auto font-body">
-                    <i class="fas fa-chart-line"></i>
+            <div class="p-8">
+                <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-light-green rounded-full mx-auto font-body">
+                    <i class="fas fa-chart-line text-white"></i>
                 </p>
                 <p class="py-5 text-center font-body">
-                    Let's grow your business together! Being found on the first page of Google puts you ahead of your competitors. Let's help you do it!
+                    We make Owning a House easy for You
                 </p>
             </div>
             <!------------ CARD 3 ------------>
-            <div class="p-8 bg-stone-100">
-                <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-pink-100 rounded-full mx-auto font-body">
-                    <i class="fas fa-users"></i>
+            <div class="p-8">
+                <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-light-green rounded-full mx-auto font-body">
+                    <i class="fas fa-users text-white"></i>
                 </p>
                 <p class="py-5 text-center font-body">
-                    Why not turn your likes and shares into money? Let your posts bring you customers. Let us help you sell more on social media.
+                We make Owning a House easy for You
                 </p>
             </div>
         </div>
@@ -52,33 +52,35 @@
 <!-------------------------------- 
 /// 03  PHASE 2 SECTION
 ---------------------------------->
-<section class="service-two py-16">
+<section class="service-two pb-16">
     <div class="cont mx-auto flex flex-col-reverse md:grid grid-cols-2 px-4">
         <!------------ COLUMN 1 ------------>
-        <div class="flex flex-col justify-center gap-3 py-16 px-4 lg:px-8 bg-pink-100">
+        <div class="flex flex-col justify-center gap-3 py-16 px-4 lg:px-8 bg-stone-100">
             <!-- <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-white rounded-full font-body">
                 <i class="fas fa-edit"></i>
             </p> -->
-            <h4 class="capitalize font-semibold text-4xl font-head mb-6">Phase II Estate</h4>
+            <h4 class="capitalize font-semibold text-4xl font-head mb-6 text-black">Phase II Estate</h4>
             <!------ Paragraph ------>
-            <p class="lg:w-5/6 text-base font-body">Own a Home now at our ongoing Peace Garden Muslim Estate Phase II</p>
+            <p class="lg:w-5/6 text-base font-body text-black">Own a Home now at our ongoing Peace Garden Muslim Estate Phase II</p>
             <!-- Location -->
             <div class="flex gap-3 items-center py-4">
                 <div class="">
-                    <span class="flex justify-center items-center h-10 w-10 border border-green-800 rounded-full">
-                        <i class="fas fa-map-marker-alt text-green-800"></i>
+                    <span class="flex justify-center items-center h-10 w-10 border border-dark-green rounded-full">
+                        <i class="fas fa-map-marker-alt text-dark-green"></i>
                     </span>
                 </div>
                 <div class="">
-                        <p class="text-base">Ori-Okuta, Atan, Otta, Ogun State</p>
+                        <p class="text-base text-black">Ori-Okuta, Atan, Otta, Ogun State</p>
                 </div>
             </div>
             <!------ Button ------>
-            <a href="/what-we-do" class="bg-stone-500 w-32 py-3 text-center rounded-md text-white font-semibold capitalize font-body">Learn more</a>
+            <div class="btn">
+                <a href="" class="inline-flex border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
+            </div>
         </div>
         <!------------- COLUMN 2 ------------>
-        <div class="flex justify-center items-center">
-            <img class="object-cover" src="/wp-content/themes/duromedia/images/graphics.jpg" alt="digital-branding">
+        <div class="flex justify-center">
+            <img class="object-cover" src="/wp-content/themes/mujjacon-website/theme/asset/image/estate-3.jpg" alt="digital-branding">
         </div>
     </div>
 </section>
@@ -113,7 +115,7 @@
         </div>
         <!-------------- BUTTON -------------->
         <div class="btn">
-            <button class="inline-flex border- border-green-800 hover:border-green-800 items-center px-6 py-3 bg-green-800 hover:bg-green-800 text-white font-medium rounded-sm">more facilities</button>
+            <a href="" class="inline-flex border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
         </div>
     </div>
 </section>
@@ -121,32 +123,34 @@
 /// 05  PHASE 1 SECTION
 ---------------------------------->
 <section class="service-two py-16">
-    <div class="cont mx-auto flex flex-col md:grid md:grid-cols-3 px-4">
+    <div class="cont mx-auto flex flex-col md:grid md:grid-cols-5 px-4">
          <!------------- COLUMN 1 ------------>
-         <div class="flex justify-center items-center col-span-2">
-            <img class="object-cover" src="/wp-content/themes/duromedia/images/graphics.jpg" alt="digital-branding">
+         <div class="flex justify-center items-center col-span-3">
+            <img class="object-cover" src="/wp-content/themes/mujjacon-website/theme/asset/image/estate-2.jpg" alt="digital-branding">
         </div>
         <!------------ COLUMN 2 ------------>
-        <div class="flex flex-col justify-center gap-3 col-span-1 py-16 px-4 lg:px-8 bg-pink-100">
+        <div class="flex flex-col justify-center gap-3 col-span-2 py-16 px-4 lg:px-10 bg-stone-100">
             <!-- <p class="flex justify-center items-center font-bold text-4xl w-20 h-20 text-orange bg-white rounded-full font-body">
                 <i class="fas fa-edit"></i>
             </p> -->
-            <h4 class="capitalize font-semibold text-4xl font-head mb-6">Phase I Estate</h4>
+            <h4 class="capitalize font-semibold text-4xl font-head mb-6 text-black">Phase I Estate</h4>
             <!------ Paragraph ------>
-            <p class="lg:w-5/6 text-base font-body">Own a Home now at our ongoing Peace Garden Muslim Estate Phase II</p>
+            <p class="lg:w-5/6 text-base font-body text-black">Own a Home now at our ongoing Peace Garden Muslim Estate Phase II</p>
             <!-- Location -->
             <div class="flex gap-3 items-center py-4">
                 <div class="">
-                    <span class="flex justify-center items-center h-10 w-10 border border-green-800 rounded-full">
-                        <i class="fas fa-map-marker-alt text-green-800"></i>
+                    <span class="flex justify-center items-center h-10 w-10 border border-dark-green rounded-full">
+                        <i class="fas fa-map-marker-alt text-dark-green"></i>
                     </span>
                 </div>
                 <div class="">
-                        <p class="text-base">Ori-Okuta, Atan, Otta, Ogun State</p>
+                        <p class="text-base text-black">Ori-Okuta, Atan, Otta, Ogun State</p>
                 </div>
             </div>
             <!------ Button ------>
-            <a href="/what-we-do" class="bg-stone-500 w-32 py-3 text-center rounded-md text-white font-semibold capitalize font-body">Learn more</a>
+            <div class="btn">
+                <a href="" class="inline-flex border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
+            </div>
         </div>
        
     </div>
@@ -180,7 +184,7 @@
         </div>
         <!-------------- BUTTON -------------->
         <div class="btn">
-            <button class="inline-flex border- border-green-800 hover:border-green-800 items-center px-6 py-3 bg-green-800 hover:bg-green-800 text-white font-medium rounded-sm">more facilities</button>
+            <a href="" class="inline-flex border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
         </div>
     </div>
 </section>
@@ -193,18 +197,8 @@
 <!-------------------------------
 ///  08 CTA SECTION 
 ------------------------------->
-<section class="text-white bg-center bg-no-repeat bg-cover">
-    <div class="cont bg-green-800 px-4 py-16 mx-auto lg:items-center lg:flex rounded-md">
-        <div class="max-w-3xl mx-auto text-center">
-        <h3 class="text-3xl font-extrabold sm:text-4xl capitalize leading-6">Purchase Your Choice of Land Now</h3>
-
-        <div class="flex flex-wrap justify-center gap-4 mt-12">
-            <a href="<?php get_site_url() ?>/all-programmes" class="block w-full px-12 py-3 text-base font-medium text-white bg-primary border border-primary rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring">
-            Get Started
-            </a>
-        </div>
-        </div>
-    </div>
+<section class="text-white bg-center bg-no-repeat bg-cover my-16">
+    <?php get_template_part('template-parts/content/content','cta');?>
 </section>
 
 <?php get_footer() ?>
