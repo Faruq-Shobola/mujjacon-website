@@ -151,7 +151,7 @@ add_action( 'widgets_init', 'mujjacon_widgets_init' );
 function mujjacon_scripts() {
 	wp_enqueue_style( 'mujjacon-style', get_stylesheet_uri(), array(), MUJJACON_VERSION );
 	// stylesheet
-	wp_enqueue_style('style', get_template_directory_uri() . '/asset/css/style.css', array(), false, 'all');
+	wp_enqueue_style('style', get_template_directory_uri() . '/asset/css/main.css', array(), false, 'all');
 
 	wp_enqueue_script( 'mujjacon-script', get_template_directory_uri() . '/js/script.min.js', array(), MUJJACON_VERSION, true );
 
