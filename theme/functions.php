@@ -113,6 +113,20 @@ if ( ! function_exists( 'mujjacon_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'mujjacon_setup' );
 
+
+// ********* //
+if (!function_exists('theme_excerpt_length' && 'theme_excerpt_more')) {
+    function theme_excerpt_length($length) {
+        return 15; // change the number here according to your requirement
+	}
+	function theme_excerpt_more($more) {
+        return '...'; // change the number here according to your requirement
+    }
+}
+add_filter('excerpt_length', 'theme_excerpt_length');
+add_filter('excerpt_more', 'theme_excerpt_more');
+// ********* //
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -154,12 +168,20 @@ function mujjacon_scripts() {
 	wp_enqueue_style('style', get_template_directory_uri() . '/asset/css/main.css', array(), false, 'all');
 
 	wp_enqueue_script( 'mujjacon-script', get_template_directory_uri() . '/js/script.min.js', array(), MUJJACON_VERSION, true );
+	wp_enqueue_script( 'owl-carousel', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), false, 'all');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'mujjacon_scripts' );
+
+function load_scripts(){
+    //Load scripts:
+    wp_enqueue_script('jquery'); # Loading the WordPress bundled jQuery version.
+    //may add more scripts to load like jquery-ui
+}
+add_action('wp_enqueue_scripts', 'load_scripts');
 
 /**
  * Add the block editor class to TinyMCE.

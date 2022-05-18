@@ -28,9 +28,8 @@
  
         </div>
         <!-------------- BUTTON -------------->
-        <div class="box pagination-box flex justify-around pt-10 " role="navigation" aria-label="Pagination Navigation">
-            <?php previous_posts_link();?>
-            <?php next_posts_link();?>
+        <div class="flex justify-center items-center">
+            <?php the_posts_pagination(); ?>
         </div>
     </div>
 </section>
