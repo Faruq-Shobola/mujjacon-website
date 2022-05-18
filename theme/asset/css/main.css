@@ -27,9 +27,9 @@ nav.menu li:last-child:hover {
 *****************/
 .hero {
 	height: 600px;
-	background-image: linear-gradient(
-			rgba(0, 51, 153, 0.85),
-			rgb(0, 51, 153, 0.85)
+	background-image: linear-gradient( to bottom right,
+		rgba(1, 61, 32, .8),
+		rgba(88, 153, 75, .8)
 		),
 		url(../images/banner-1.jpg);
 	background-size: cover;
