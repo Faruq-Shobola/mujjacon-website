@@ -5,8 +5,6 @@
     <div class="md:max-w-3xl mx-auto px-4">
         <div class="flex flex-col gap-8 text-center text-white">
             <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">Growing everyday business with innovative digital solutions</h2>
-            <!------------ BUTTON ------------>
-            <a href="/get-quote" class="bg-red-500 w-40 py-3 mx-auto text-center text-white font-semibold capitalize font-body">Get started</a>
         </div>
     </div>
 </section>
@@ -74,7 +72,7 @@
                     </div>
                 </div>
                     <!-------------- SOCIALS -------------->
-                <div class="flex justify-center items-center gap-4">
+                <div class="flex items-center gap-4">
                     <div class="flex justify-center items-center h-8 w-8 bg-green-800 rounded-full">
                         <i class="fab fa-facebook-f text-white"><a href=""></a></i>
                     </div>
@@ -98,7 +96,7 @@
             --------------------------------->
             <div class="md:col-span-4 flex justify-center">
                 <div class="w-full lg:w-4/5">
-                    
+                    <?php the_content();?>
                 </div>
                 
             </div>

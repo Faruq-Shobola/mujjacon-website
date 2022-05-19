@@ -21,8 +21,7 @@
                     <div class="flex gap-3 items-center py-2">
                         <div class="">
                             <span class="flex justify-center items-center">
-                                <i class="fas fa-ruler-triangle text-dark-green"></i>
-                                <i class="fas fa-ruler-triangle"></i>
+                                <i class="fas fa-ruler-combined text-dark-green"></i>
                             </span>
                         </div>
                         <div class="">

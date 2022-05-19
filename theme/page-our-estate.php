@@ -6,7 +6,11 @@
         <div class="flex flex-col gap-8 text-center text-white">
             <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">Growing everyday business with innovative digital solutions</h2>
             <!------------ BUTTON ------------>
-            <a href="/get-quote" class="bg-red-500 w-40 py-3 mx-auto text-center text-white font-semibold capitalize font-body">Get started</a>
+            <div class="flex flex-wrap justify-center">
+                <a href="<?php get_site_url() ?>/all-programmes" class="block w-full px-12 py-3 text-base font-medium text-white bg-dark-green border border-dark-green hover:border-white rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring  transition duration-300 hover:ease-in">
+                    Get Started
+                </a>
+            </div>
         </div>
     </div>
 </section>
@@ -53,7 +57,7 @@
         </div>
         <!-------------- BUTTON -------------->
        <div class="list">
-            <ul role="list" class="marker:text-light-green pl-5 space-y-3 text-base font-medium list-outside list-disc">
+            <ul role="list" class="marker:text-green-800 pl-5 space-y-3 text-base font-medium list-outside list-disc">
                 <li class="text-gray-900">
                     Windows Based OS
                 </li>
@@ -71,7 +75,6 @@
                 </li>
             </ul>
         </div>
-       
     </div>
 </section>
 <!-------------------------------
@@ -122,7 +125,7 @@
         </div>
         <!-------------- BUTTON -------------->
        <div class="list">
-            <ul role="list" class="marker:text-light-green pl-5 space-y-3 text-base font-medium list-outside list-disc">
+            <ul role="list" class="marker:text-green-800 pl-5 space-y-3 text-base font-medium list-outside list-disc">
                 <li class="text-gray-900">
                     Windows Based OS
                 </li>
@@ -140,7 +143,6 @@
                 </li>
             </ul>
         </div>
-       
     </div>
 </section>
 <!-------------------------------

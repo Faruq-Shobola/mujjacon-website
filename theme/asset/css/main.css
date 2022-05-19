@@ -35,6 +35,66 @@ nav.menu li:last-child:hover {
 	background-size: cover;
 	background-position: center;
 }
+
+/****************
+*** CONTACT FORM
+*****************/
+div.wpcf7 {
+	width: 100%;
+}
+div.wpcf7 p {
+	margin: 5px 0px;
+}
+div.wpcf7 p label {
+	color: #013D20;
+	font-weight: 400;
+}
+.wpcf7-form input,
+.wpcf7-form textarea,
+.wpcf7-form select {
+	border: 1px solid #013D20;
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 5px 0px;
+}
+.wpcf7-checkbox {
+	padding: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.wpcf7-form input[type="checkbox"]:checked {
+	background-color: #013D20;
+}
+.wpcf7-form textarea {
+	height: 150px;
+}
+.wpcf7-form input[type="submit"] {
+	background-color: #013D20;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: 700;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 10px 15px;
+	border: 2px solid #013D20;
+	margin: 5px 0px;
+	border-radius: 10px;
+}
+.wpcf7-form input,
+.wpcf7-form textarea:focus,
+.wpcf7-form select:focus,
+.wpcf7-form input[type="submit"]:focus {
+	outline: none;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+	background-color: transparent;
+	border: 2px solid #013D20;
+	color: #013D20;
+}
+
 /****************
 *** Pagination
 *****************/
@@ -49,4 +109,45 @@ nav.menu li:last-child:hover {
 }
 .pagination .nav-links .current {
 	background-color: #b1b1b1;
+}
+
+/****************
+*** owl carousel
+*****************/
+.owl-carousel .owl-dots {
+	height: 57px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots {
+	width: 50%;
+	float: right;
+}
+.owl-carousel.owl-theme .owl-nav [class*="owl-"] {
+	color: #013D20;
+	font-size: 16px;
+	margin: 5px;
+	padding: 10px 15px;
+	background-color: #fff;
+	border: 1.5px solid #013D20;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.owl-carousel.owl-theme .owl-nav [class*="owl-"]:hover {
+	color: #fff;
+	background-color: #013D20;
+}
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
+.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
+	background: #013D20;
+}
+@media screen and (max-width: 767px) {
+	.owl-carousel .owl-nav,
+	.owl-carousel .owl-dots {
+		width: 100%;
+		display: block;
+	}
 }

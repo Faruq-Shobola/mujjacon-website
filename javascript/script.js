@@ -17,10 +17,15 @@
 		loop: true,
 		autoplay: true,
 		margin: 30,
-		dots: false,
-		navBy: 1,
+		dots: true,
+		nav: true,
+		navBy: true,
+		navText: [
+			"<i class='fas fa-chevron-left'></i>",
+			"<i class='fas fa-chevron-right'></i>"
+		],
 		autoplayTimeout: 2500,
-		autoplayHoverPause: false,
+		autoplayHoverPause: true,
 		smartSpeed: 1000,
 		responsive: {
 			0: {
@@ -53,7 +58,7 @@
 		autoplay: true,
 		margin: 30,
 		dots: true,
-		nav: false,
+		nav: true,
 		navText: [
 			"<i class='fas fa-chevron-left'></i>",
 			"<i class='fas fa-chevron-right'></i>",

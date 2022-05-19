@@ -27,7 +27,7 @@
                            
                             <div class="title">
                                 <h5 class="capitalize text-base font-bold text-light-green"><?php the_title();?></h5>
-                                <p class="capitalize text-dark-green text-sm">abuja, nigeria</p>
+                                <p class="capitalize text-dark-green text-sm"><?php the_field('occupation') ?></p>
                             </div>
                         </div>
                         <p class="text-lg font-medium"><?php the_content(); ?></p>

@@ -104,8 +104,9 @@
             <!-- facilities section -->
             <?php $query_args = array(
                 'post_type' => 'facilities',
-                // 'posts_per_page' => 3,
+                'posts_per_page' => 999,
                 'order' => 'DSC',
+                'taxonomy' => 'phase1',
             );
             
             $query = new WP_Query( $query_args ); ?>
