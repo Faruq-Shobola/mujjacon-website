@@ -7,6 +7,9 @@ nav.menu li {
 nav.menu li.current_page_item + li {
 	border-bottom: 2px solid #ffffff;
 }
+nav.menu li:last-child.current_page_item + li {
+	border-bottom: 2px solid #013D20;
+}
 nav.menu li:hover {
 	border-bottom: 2px solid #ffffff;
 	color: #ffffff;
@@ -22,6 +25,46 @@ nav.menu li:last-child:hover {
 	background-color: transparent;
 	color: #ffffff;
 }
+@media screen and (max-width: 767px) {
+	nav.menu li.current_page_item + li {
+		border-bottom: 2px solid #013D20;
+	}
+	nav.menu li:hover {
+		border-bottom: 2px solid #013D20;
+		color: #013D20;
+	}
+	nav.menu li:last-child:hover {
+		border: 2px solid #013D20;
+		background-color: transparent;
+		color: #013D20;
+	}
+}
+/****************
+*** MOBILE MENU
+*****************/
+.menu-sticky {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0px 1px 5px #00000083;
+	background-color: #ffffff;
+	-webkit-animation: slide-bottom 0.75s ease-out both;
+	animation: slide-bottom 0.75s ease-out both;
+}
+
+.menu-sticky li {
+	color: #000;
+}
+
+.menu-sticky .hamburger-menu-2 .stroke {
+	background-color: #003399;
+}
+.menu-sticky .hamburger-menu-2 .label-text {
+	color: #003399;
+}
+
 /****************
 *** Hero
 *****************/

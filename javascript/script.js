@@ -6,6 +6,8 @@
  * For esbuild documentation, please see:
  * https://esbuild.github.io/
  */
+
+ 
  jQuery(document).ready(function($) {
 
     /*----------------------------------------------------*/
@@ -86,3 +88,16 @@
 	});
 
 });
+var menu = document.querySelector(".menu");
+  var hamburgerMenu = document.querySelector(".hamburger-menu");
+  
+  var toggleNav = () => {
+	  if (menu.classList.contains("hidden")) {
+		  menu.classList.add("flex-col");
+		  menu.classList.remove("hidden");
+		} else {
+			menu.classList.add("hidden");
+			menu.classList.remove("flex-col");
+		}
+	};
+	hamburgerMenu.addEventListener("click", toggleNav);
