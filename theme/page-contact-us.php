@@ -34,7 +34,7 @@
                             </span>
                         </div>
                         <div class="">
-                                <p class="text-base">Plot 12, Oladele Kadiri close Off Nob-Oluwa Street, Ogba, Ikeja Lagos.</p>
+                                <p class="text-base">Oruku Village, Muslim Town, Ogun State</p>
                         </div>
                     </div>
                     <!-------------- PHASE 2 LOCATION -------------->
@@ -45,7 +45,7 @@
                             </span>
                         </div>
                         <div class="">
-                                <p class="text-base">Plot 12, Oladele Kadiri close Off Nob-Oluwa Street, Ogba, Ikeja Lagos.</p>
+                                <p class="text-base">Ori-Okuta, Atan, Otta, Ogun State</p>
                         </div>
                     </div>
                     <!-------------- TELEPHONE -------------->
