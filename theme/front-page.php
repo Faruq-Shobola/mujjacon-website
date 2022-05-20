@@ -130,8 +130,8 @@
 ---------------------------------->
 <section class="service-two py-16">
     <div class="cont mx-auto flex flex-col md:grid md:grid-cols-5 px-4">
-         <!------------- COLUMN 1 ------------>
-         <div class="flex justify-center items-center col-span-3">
+        <!------------- COLUMN 1 ------------>
+        <div class="flex justify-center items-center col-span-3">
             <img class="object-cover" src="/wp-content/themes/mujjacon-website/theme/asset/image/estate-2.jpg" alt="digital-branding">
         </div>
         <!------------ COLUMN 2 ------------>
