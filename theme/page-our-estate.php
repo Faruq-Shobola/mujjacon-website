@@ -4,10 +4,10 @@
     <!------------ PAGE TITLE ------------>
     <div class="md:max-w-3xl mx-auto px-4">
         <div class="flex flex-col gap-8 text-center text-white">
-            <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">Growing everyday business with innovative digital solutions</h2>
+            <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">Check out our completed peace Garden Phase I Estate and our ongoing Phase II</h2>
             <!------------ BUTTON ------------>
             <div class="flex flex-wrap justify-center">
-                <a href="<?php get_site_url() ?>/all-programmes" class="block w-full px-12 py-3 text-base font-medium text-white bg-dark-green border border-dark-green hover:border-white rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring  transition duration-300 hover:ease-in">
+                <a href="<?php get_site_url() ?>/contact" class="block w-full px-12 py-3 text-base font-medium text-white bg-dark-green border border-dark-green hover:border-white rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring  transition duration-300 hover:ease-in">
                     Get Started
                 </a>
             </div>
@@ -24,16 +24,36 @@
             <!-------------- HEADING -------------->
             <h2 class="text-3xl md:text-4xl font-bold capitalize">phase I estate</h2>
             <!-------------- LOCATION -------------->
-            <div class="flex gap-3 items-center py-4">
-                    <div class="">
-                        <span class="flex justify-center items-center h-10 w-10 border border-green-800 rounded-full">
-                            <i class="fas fa-map-marker-alt text-green-800"></i>
-                        </span>
-                    </div>
-                    <div class="">
-                            <p class="text-base">Ori-Okuta, Atan, Otta, Ogun State</p>
-                    </div>
+            <div class="flex gap-3 items-center pt-4">
+                <div class="">
+                    <span class="flex justify-center items-center h-10 w-10 border border-green-800 rounded-full">
+                        <i class="fas fa-map-marker-alt text-green-800"></i>
+                    </span>
                 </div>
+                <div class="">
+                        <p class="text-base">Ori-Okuta, Atan, Otta, Ogun State</p>
+                </div>
+            </div>
+        </div>
+         <!-------------- FACILITY -------------->
+       <div class="list pl-5">
+            <ul role="list" class="marker:text-green-800 pl-5 space-y-3 text-base font-medium list-outside list-disc">
+                <li class="text-gray-900">
+                    25-Minute Drive into Lagos
+                </li>
+                <li class="text-gray-900">
+                    Islamic School
+                </li>
+                <li class="text-gray-900">
+                    Standard Built Mosque
+                </li>
+                <li class="text-gray-900">
+                    Constant Electricity
+                </li>
+                <li class="text-gray-900">
+                    Accessible Road Networks
+                </li>
+            </ul>
         </div>
         <!-------------- FACILITIES -------------->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
@@ -55,26 +75,7 @@
             <?php endwhile; else: endif; ?>
     <!-- </div> -->
         </div>
-        <!-------------- BUTTON -------------->
-       <div class="list">
-            <ul role="list" class="marker:text-green-800 pl-5 space-y-3 text-base font-medium list-outside list-disc">
-                <li class="text-gray-900">
-                    Windows Based OS
-                </li>
-                <li class="text-gray-900">
-                    Full color touchscreen with integrated label design function
-                </li>
-                <li class="text-gray-900">
-                    Ability to customize user interface
-                </li>
-                <li class="text-gray-900">
-                    Ethernet connection and Windows driver
-                </li>
-                <li class="text-gray-900">
-                    Unique font support (All languages for menu and auto codes)
-                </li>
-            </ul>
-        </div>
+       
     </div>
 </section>
 <!-------------------------------
@@ -92,7 +93,7 @@
             <!-------------- HEADING -------------->
             <h2 class="text-3xl md:text-4xl font-bold capitalize">phase II estate</h2>
             <!-------------- LOCATION -------------->
-            <div class="flex gap-3 items-center py-4">
+            <div class="flex gap-3 items-center pt-4">
                     <div class="">
                         <span class="flex justify-center items-center h-10 w-10 border border-green-800 rounded-full">
                             <i class="fas fa-map-marker-alt text-green-800"></i>
@@ -102,6 +103,26 @@
                             <p class="text-base">Ori-Okuta, Atan, Otta, Ogun State</p>
                     </div>
                 </div>
+        </div>
+        <!-------------- FACILITY -------------->
+        <div class="list pl-5">
+            <ul role="list" class="marker:text-green-800 pl-5 space-y-3 text-base font-medium list-outside list-disc">
+                <li class="text-gray-900">
+                    25-Minute Drive into Lagos
+                </li>
+                <li class="text-gray-900">
+                    Islamic School
+                </li>
+                <li class="text-gray-900">
+                    Standard Built Mosque
+                </li>
+                <li class="text-gray-900">
+                    Constant Electricity
+                </li>
+                <li class="text-gray-900">
+                    Accessible Road Networks
+                </li>
+            </ul>
         </div>
         <!-------------- FACILITIES -------------->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
@@ -123,26 +144,7 @@
             <?php endwhile; else: endif; ?>
     <!-- </div> -->
         </div>
-        <!-------------- BUTTON -------------->
-       <div class="list">
-            <ul role="list" class="marker:text-green-800 pl-5 space-y-3 text-base font-medium list-outside list-disc">
-                <li class="text-gray-900">
-                    Windows Based OS
-                </li>
-                <li class="text-gray-900">
-                    Full color touchscreen with integrated label design function
-                </li>
-                <li class="text-gray-900">
-                    Ability to customize user interface
-                </li>
-                <li class="text-gray-900">
-                    Ethernet connection and Windows driver
-                </li>
-                <li class="text-gray-900">
-                    Unique font support (All languages for menu and auto codes)
-                </li>
-            </ul>
-        </div>
+       
     </div>
 </section>
 <!-------------------------------
