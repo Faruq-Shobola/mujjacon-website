@@ -4,7 +4,7 @@
     <!------------ PAGE TITLE ------------>
     <div class="md:max-w-3xl mx-auto px-4">
         <div class="flex flex-col gap-8 text-center text-white">
-            <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">Growing everyday business with innovative digital solutions</h2>
+            <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">Get In Touch With Us</h2>
         </div>
     </div>
 </section>
