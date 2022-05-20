@@ -9,7 +9,7 @@
             <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">The Foremost Muslim Real Estate Company In Nigeria Providing Homes that fulfill Your Dreams</h2>
             <!------------ BUTTON ------------>
             <div class="flex flex-wrap justify-center">
-                <a href="<?php get_site_url() ?>/all-programmes" class="block w-full px-12 py-3 text-base font-medium text-white bg-dark-green border border-dark-green hover:border-white rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring  transition duration-300 hover:ease-in">
+                <a href="<?php get_site_url() ?>/contact" class="block w-full px-12 py-3 text-base font-medium text-white bg-dark-green border border-dark-green hover:border-white rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring  transition duration-300 hover:ease-in">
                     Get Started
                 </a>
             </div>
@@ -57,7 +57,7 @@
 <!-------------------------------- 
 /// 03  PHASE 1 SECTION
 ---------------------------------->
-<section class="service-two pb-16">
+<section class="pb-16">
     <div class="cont mx-auto flex flex-col-reverse md:grid grid-cols-2 px-4">
         <!------------ COLUMN 1 ------------>
         <div class="flex flex-col justify-center gap-3 py-16 px-4 lg:px-8 bg-gray">
@@ -80,7 +80,7 @@
             </div>
             <!------ Button ------>
             <div class="btn">
-                <a href="" class="inline-flex border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
+                <a href="<?php get_site_url() ?>/our-estate" class="inline-flex capitalize border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
             </div>
         </div>
         <!------------- COLUMN 2 ------------>
@@ -121,7 +121,7 @@
         </div>
         <!-------------- BUTTON -------------->
         <div class="btn">
-            <a href="" class="inline-flex border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
+            <a href="<?php get_site_url() ?>/our-estate" class="inline-flex capitalize border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
         </div>
     </div>
 </section>
@@ -155,7 +155,7 @@
             </div>
             <!------ Button ------>
             <div class="btn">
-                <a href="" class="inline-flex border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
+                <a href="<?php get_site_url() ?>/our-estate" class="inline-flex capitalize border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
             </div>
         </div>
        
@@ -190,7 +190,7 @@
         </div>
         <!-------------- BUTTON -------------->
         <div class="btn">
-            <a href="" class="inline-flex border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">more facilities</a>
+            <a href="<?php get_site_url() ?>/blog" class="inline-flex capitalize border border-dark-green hover:border-dark-green items-center px-6 py-3 bg-dark-green hover:bg-transparent text-white hover:text-dark-green font-medium rounded transition duration-300 hover:ease-in">view more</a>
         </div>
     </div>
 </section>

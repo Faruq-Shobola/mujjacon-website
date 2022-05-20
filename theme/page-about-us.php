@@ -14,23 +14,16 @@
 <section class="service-two">
     <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 py-16 ">
         <!------------ COLUMN 1 ------------>
-        <div class="flex flex-col justify-center gap-5 px-4 lg:px-8">
+        <div class="flex flex-col gap-5 px-4 lg:px-8">
             <!------ TITLE ------>
             <h2 class="capitalize font-bold text-3xl py-2 font-head">About us</h2>
             <!------ PARAGRAPH 1------>
-            <p class="text-base font-body">Duromedia was formed in 2016 by Founder, Mr. AbdulHad Durodola. 
-                He believes when passionate people and like minds work together and well empowered, amazing things happen.
+            <p class="text-base font-body">We are a Real Estate Company that provides Excellent landed properties and Affordable Housing to All Muslims. Our Passion is to fulfill our obligation, an Act of Sadaqah jaariyah to the Muslim Community in Nigeria and Africa.
             </p>
             <!------ PARAGRAPH 2------>
-            <p class="text-base font-body">In these few years, Duromedia has made its mark in Nigeria as well
-                as getting international recognition for excellence. The company has also made serious impact on people, small- and large-scale
-                businesses. 
+            <p class="text-base font-body">With Our Peace Garden Phase I Estate @Oruku Village completed, we are committed to providing value to our Clients. Our Phase II project is underway at Ori-Okuta, Atan, Otta, Ogun State.
             </p>
-            <!------ PARAGRAPH 3------>
-            <p class="text-base font-body">The DuroMedia Team which consists of Rahmat Bello, Ahmed Olusesi, Yusuf AbdulLateef, 
-                Sumaiyah Ajani, Olatunji Olayemi, Faruq Shobola and Faizol Shobola is a very versatile team with large efforts and commitments on 
-                every project. 
-            </p>
+           
            
         </div>
         <!------------ COLUMN 2 ------------>
@@ -40,14 +33,13 @@
             <div class="flex flex-col justify-center gap-3 px-4 md:px-8">
                 <h2 class="capitalize font-bold text-3xl py-2 font-head">Our Vision</h2>
                 <!------ PARAGRAPH ------>
-                <p class="lg:w-5/6 my-4 text-base capitalize font-body">To be the best among our equals. Providing outstanding results and value to our stakeholders</p>
+                <p class="lg:w-5/6 my-4 text-base capitalize font-body">To be the Topmost Real Estate Company in Nigeria and Africa at large. Provide Our Fellow Islamic Brethren with Comfortable, Affordable Housing that meets Global Standard.</p>
             </div>
             <!------------ VISION ------------>
             <div class="flex flex-col justify-center gap-3 px-4 md:px-8">
                 <h2 class="capitalize font-bold text-3xl py-2 font-head">Our Mission</h2>
                 <!------ PARAGRAPH ------>
-                <p class="lg:w-5/6 my-4 text-base capitalize font-body">We work to eliminate the apathy that will suck the life out of any business in the world. We do this by 
-                    using result-oriented digital and brand identity solutions to inspire the spirit, penetrate the heart, and ignite the mind.
+                <p class="lg:w-5/6 my-4 text-base capitalize font-body">Our goal is to continually stand by our religious obligation to provide Sadaqah jariyah in offering our clients affordable homes, comfortable with the sole purpose of making life livable.
                 </p>
             </div>
         </div>
@@ -63,18 +55,13 @@
         <div class="flex flex-col justify-center gap-5 px-4 lg:px-8">   
             <h2 class="capitalize font-bold text-3xl py-2 font-head">Our Core Values</h2>
              <!------ PARAGRAPH 1------>
-            <p class="text-base font-body">Duromedia was formed in 2016 by Founder, Mr. AbdulHad Durodola. 
-                He believes when passionate people and like minds work together and well empowered, amazing things happen.
+            <p class="text-base font-body">We know the importance of living in a home with Peace and Comfort. That is why our focus is to provide you with your needed social amenities.
             </p>
             <!------ PARAGRAPH 2------>
-            <p class="text-base font-body">In these few years, Duromedia has made its mark in Nigeria as well
-                as getting international recognition for excellence. The company has also made serious impact on people, small- and large-scale
-                businesses. 
+            <p class="text-base font-body">With our Team of Builders and Architects, we will help you build a house that meets Modern Standard and Beautification.
             </p>
             <!------ PARAGRAPH 3------>
-            <p class="text-base font-body">The DuroMedia Team which consists of Rahmat Bello, Ahmed Olusesi, Yusuf AbdulLateef, 
-                Sumaiyah Ajani, Olatunji Olayemi, Faruq Shobola and Faizol Shobola is a very versatile team with large efforts and commitments on 
-                every project. 
+            <p class="text-base font-body">We provide you with the opportunity to build houses according to your specifications. We deliver independent ownership of Land with a government-approved Certificate of Occupancy. We allow you to buy and resell at your will. 
             </p>
             <!-- <ul class="flex flex-col gap-y-2">
                 <li class="flex items-center gap-2 text-base">
