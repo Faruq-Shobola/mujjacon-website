@@ -33,8 +33,8 @@
 			0: {
 				items: 1,
 			},
-			500: {
-				items: 1,
+			640: {
+				items: 2,
 			},
 			767: {
 				items: 2,
@@ -60,11 +60,7 @@
 		autoplay: true,
 		margin: 30,
 		dots: true,
-		nav: true,
-		navText: [
-			"<i class='fas fa-chevron-left'></i>",
-			"<i class='fas fa-chevron-right'></i>",
-		],
+		nav: false,
 		autoplayTimeout: 4000,
 		autoplayHoverPause: true,
 		smartSpeed: 1000,

@@ -5,17 +5,15 @@ nav.menu li {
 	transition: 0.2s all;
 }
 nav.menu li.current_page_item + li {
-	border-bottom: 2px solid #ffffff;
+	border-top: 2px solid #ffffff;
 }
-nav.menu li:last-child.current_page_item + li {
-	border-bottom: 2px solid #013D20;
-}
+
 nav.menu li:hover {
-	border-bottom: 2px solid #ffffff;
+	border-top: 2px solid #ffffff;
 	color: #ffffff;
 }
 nav.menu li:last-child {
-	border: 2px solid #013D20;
+	border: 2px solid #013D20 !important;
 	background-color: #013D20;
 	color: #fff;
 	padding: 10px 25px;
@@ -27,10 +25,10 @@ nav.menu li:last-child:hover {
 }
 @media screen and (max-width: 767px) {
 	nav.menu li.current_page_item + li {
-		border-bottom: 2px solid #013D20;
+		border-top: 2px solid #013D20;
 	}
 	nav.menu li:hover {
-		border-bottom: 2px solid #013D20;
+		border-top: 2px solid #013D20;
 		color: #013D20;
 	}
 	nav.menu li:last-child:hover {
@@ -78,7 +76,56 @@ nav.menu li:last-child:hover {
 	background-size: cover;
 	background-position: center;
 }
-
+.contact {
+	height: 550px;
+	background-image: linear-gradient( to bottom right,
+		rgba(1, 61, 32, .85),
+		rgba(88, 153, 75, .85)
+		),
+		url(../image/estate-2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.blog {
+	height: 550px;
+	background-image: linear-gradient( to bottom right,
+		rgba(1, 61, 32, .85),
+		rgba(88, 153, 75, .85)
+		),
+		url(../image/estate-2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.explore {
+	height: 550px;
+	background-image: linear-gradient( to bottom right,
+		rgba(1, 61, 32, .85),
+		rgba(88, 153, 75, .85)
+		),
+		url(../image/estate-3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.estate {
+	height: 550px;
+	background-image: linear-gradient( to bottom right,
+		rgba(1, 61, 32, .85),
+		rgba(88, 153, 75, .85)
+		),
+		url(../image/estate-2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.about {
+	height: 550px;
+	background-image: linear-gradient( to bottom right,
+		rgba(1, 61, 32, .85),
+		rgba(88, 153, 75, .85)
+		),
+		url(../image/estate-3.jpg);
+	background-size: cover;
+	background-position: center;
+}
 /****************
 *** CONTACT FORM
 *****************/
@@ -164,8 +211,8 @@ div.wpcf7 p label {
 	justify-content: center;
 	margin-top: 10px;
 }
-.owl-carousel .owl-nav,
-.owl-carousel .owl-dots {
+.owl-carousel.facilities-slide .owl-nav,
+.owl-carousel.facilities-slide .owl-dots {
 	width: 50%;
 	float: right;
 }
@@ -187,9 +234,9 @@ div.wpcf7 p label {
 .owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
 	background: #013D20;
 }
-@media screen and (max-width: 767px) {
-	.owl-carousel .owl-nav,
-	.owl-carousel .owl-dots {
+@media screen and (max-width: 639px) {
+	.owl-carousel.facilities-slide .owl-nav,
+	.owl-carousel.facilities-slide .owl-dots {
 		width: 100%;
 		display: block;
 	}
