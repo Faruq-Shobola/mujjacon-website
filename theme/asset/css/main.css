@@ -41,7 +41,7 @@ nav.menu li:last-child:hover {
 /****************
 *** Hero
 *****************/
-.hero {
+.hero-page {
 	height: 550px;
 	background-image: linear-gradient( to bottom right,
 		rgba(1, 61, 32, .85),
@@ -51,7 +51,7 @@ nav.menu li:last-child:hover {
 	background-size: cover;
 	background-position: center;
 }
-.contact {
+.contact-page {
 	height: 550px;
 	background-image: linear-gradient( to bottom right,
 		rgba(1, 61, 32, .85),
@@ -61,7 +61,7 @@ nav.menu li:last-child:hover {
 	background-size: cover;
 	background-position: center;
 }
-.blog {
+.blog-page {
 	height: 550px;
 	background-image: linear-gradient( to bottom right,
 		rgba(1, 61, 32, .85),
@@ -71,7 +71,7 @@ nav.menu li:last-child:hover {
 	background-size: cover;
 	background-position: center;
 }
-.explore {
+.explore-page {
 	height: 550px;
 	background-image: linear-gradient( to bottom right,
 		rgba(1, 61, 32, .85),
@@ -81,7 +81,7 @@ nav.menu li:last-child:hover {
 	background-size: cover;
 	background-position: center;
 }
-.estate {
+.estate-page {
 	height: 550px;
 	background-image: linear-gradient( to bottom right,
 		rgba(1, 61, 32, .85),
@@ -91,7 +91,7 @@ nav.menu li:last-child:hover {
 	background-size: cover;
 	background-position: center;
 }
-.about {
+.about-page {
 	height: 550px;
 	background-image: linear-gradient( to bottom right,
 		rgba(1, 61, 32, .85),

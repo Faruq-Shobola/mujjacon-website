@@ -2,7 +2,7 @@
 <!-------------------------------- 
 /// 01   HERO SECTION
 ---------------------------------->
-<section class="blog top-0 relative flex justify-center items-center overflow-hidden">
+<section class="blog-page top-0 relative flex justify-center items-center overflow-hidden">
     <!------------ PAGE TITLE ------------>
     <div class="md:max-w-3xl mx-auto px-4">
         <div class="flex flex-col gap-8 text-center text-white">
@@ -15,7 +15,7 @@
 <!-------------------------------
 ///  02  BLOG SECTION 
 ------------------------------->
-<section class="blog pb-16 pt-20 bg-cream">
+<section class="pb-16 pt-20 bg-cream">
     <div class="cont mx-auto flex flex-col items-center justify-center gap-16 px-4">
         <!-------------- BLOGS -------------->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-y-12 w-full">
