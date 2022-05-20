@@ -5,7 +5,7 @@
 <section class="hero top-0 relative flex justify-center items-center overflow-hidden">
     <!------------ PAGE TITLE ------------>
     <div class="md:max-w-3xl mx-auto px-4">
-        <div class="flex flex-col gap-8 text-center text-white">
+        <div class="flex flex-col gap-8 text-center justify-center items-center text-center  text-white">
             <h2 class="capitalize font-bold text-4xl md:text-5xl leading-tight md:leading-snug font-head">The Foremost Muslim Real Estate Company In Nigeria Providing Homes that fulfill Your Dreams</h2>
             <!------------ BUTTON ------------>
             <div class="flex flex-wrap justify-center">
@@ -18,7 +18,7 @@
     </div>
 </section>
 <!-------------------------------- 
-/// 02   HERO SECTION
+/// 02  SERVICE SECTION
 ---------------------------------->
 <section class="">
     <div class="cont px-4">
@@ -92,7 +92,7 @@
 <!-------------------------------- 
 /// 04  FACILITIES SECTION
 ---------------------------------->
-<section class="blog py-16 bg-cream">
+<section class="py-16 bg-cream">
     <div class="cont mx-auto flex flex-col items-center justify-center gap-14 px-4">
         <!-------------- HEADING -------------->
         <div class="flex flex-col justify-center gap-8 heading w-full">
@@ -164,7 +164,7 @@
 <!-------------------------------
 ///  06   BLOG SECTION 
 ------------------------------->
-<section class="blog py-16 bg-cream">
+<section class="py-16 bg-cream">
     <div class="cont mx-auto flex flex-col items-center justify-center gap-16 px-4">
         <!-------------- HEADING -------------->
         <div class="flex flex-col items-center justify-center gap-8 heading text-center">

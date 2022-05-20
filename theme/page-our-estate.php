@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<section class="hero top-0 relative flex justify-center items-center overflow-hidden">
+<section class="estate top-0 relative flex justify-center items-center overflow-hidden">
     <!------------ PAGE TITLE ------------>
     <div class="md:max-w-3xl mx-auto px-4">
         <div class="flex flex-col gap-8 text-center text-white">
@@ -18,7 +18,7 @@
 <!-------------------------------- 
 /// 02  PHASE 1 SECTION
 ---------------------------------->
-<section class="blog py-16 bg-cream">
+<section class="py-16 bg-cream">
     <div class="cont mx-auto flex flex-col justify-center gap-14 px-4">
         <div class="flex flex-col justify-center gap-2 heading w-full">
             <!-------------- HEADING -------------->
@@ -86,7 +86,7 @@
 <!-------------------------------- 
 /// 04  PHASE 2 SECTION
 ---------------------------------->
-<section class="blog py-16 bg-cream">
+<section class="py-16 bg-cream">
     <div class="cont mx-auto flex flex-col justify-center gap-14 px-4">
         <div class="flex flex-col justify-center gap-2 heading w-full">
             <!-------------- HEADING -------------->
