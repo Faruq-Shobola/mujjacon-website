@@ -15,7 +15,7 @@ nav.menu li:hover {
 	color: #ffffff;
 }
 nav.menu li:last-child {
-	border: 2px solid #013D20;
+	border: 2px solid #013D20 !important; 
 	background-color: #013D20;
 	color: #fff;
 	padding: 10px 25px;
@@ -193,4 +193,18 @@ div.wpcf7 p label {
 		width: 100%;
 		display: block;
 	}
+}
+
+/****************
+*** Back To Top
+*****************/
+#button {
+	bottom: 50px;
+	right: 30px;
+	transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+	opacity: 0;
+}
+#button.show {
+	opacity: 1;
+	visibility: visible;
 }

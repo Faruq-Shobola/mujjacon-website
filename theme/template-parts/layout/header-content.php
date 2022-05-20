@@ -23,7 +23,7 @@
 				</div>
 		
 				<div class="flex md:hidden hamburger-menu">
-					<span class="flex justify-center items-center h-10 w-10 rounded-full bg-white">
+					<span class="flex justify-center items-center h-10 w-10 rounded-sm bg-white">
 						<i class="fas fa-bars text-light-green hamburger-menu text-2xl"></i>
 					</span>
 				</div>

@@ -34,41 +34,23 @@
                 </div>
         </div>  
         <!-------------- ADDRESS / COPYRIGHT - TERMS & CONDITION -------------->
-        <div class="copyright grid md:grid-cols-2 gap-14">
+        <div class="copyright flex flex-wrap justify-between gap-8">
             <div class="address capitalize text-base list-none">
+                <p class="mt-4">Get the latest branding box</p>
                 <?php if(is_active_sidebar('address')):?>
                     <?php dynamic_sidebar('address');?>
                 <?php endif;?>
             </div>
             <div class="md:justify-self-end capitalize text-base list-none">
+                <p class="mt-4">Copyright 2022 Alright reserved designed by duromedia</p>
                 <?php if(is_active_sidebar('copyright')):?>
                     <?php dynamic_sidebar('copyright');?>
                 <?php endif;?>
             </div>
         </div>
         <!-------------- BACK TO TOP -------------->
-        <!-- <a id="button" class="flex items-center justify-center z-10 text-center fixed bg-orange h-12 w-12 rounded-md">
-            <i class="fas fa-chevron-up text-3xl text-white hover:pointer active:pointer"></i>
-        </a> -->
+        <a id="button" class="flex items-center justify-center z-10 text-center fixed bg-dark-green h-12 w-12 rounded-md">
+            <i class="fas fa-arrow-up text-2xl text-white hover:pointer active:pointer"></i>
+        </a>
     </footer>
-</section>
-<!-------------- NEWSLETTER -------------->
-<section>
-    <div class="max-w-6xl mx-auto py-6 px-4 ">
-        <div class="flex justify-center grid lg:grid-cols-2 gap-10">
-            <!-------------- HEADING -------------->
-            <div class="heading text-center lg:text-left flex flex-col justify-center">
-                <h2 class=" text-xl md:text-2xl font-semibold ">Join our newsletter today</h2>
-                <h5 class="mt-4">Get the latest branding and marketing ideas directly to your inbox</h5>
-            </div>
-            <!-------------- FORM -------------->
-            <div class="px-4 rounded-md gap-y-4">
-                <div class="newsletter-form flex justify-center sm:col-span-3 list-none">
-                    <?php if(is_active_sidebar('newsletter')):?>
-                        <?php dynamic_sidebar('newsletter');?>
-                    <?php endif;?>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
